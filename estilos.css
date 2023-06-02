@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(fondo.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgb(45, 189, 189);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .titulo_logo {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.titulo {
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+header nav a:last-child {
+    margin-right: 0;
+    color: black;
+}
+
+.formulario {
+    background: #fff;
+    margin-top: 50px;
+    padding: 20px;
+    border: 2px solid #1a2537;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #1a2537;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.input-contenedor {
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    flex: 1;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px red;
+}
+
+.button {
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    background: #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background: cadetblue;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 400;
+}.link:hover {
+    color: cadetblue;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.button-facebook {
+    border-color: black;
+}
+
+.button-google {
+    background-color: white;
+    border-color: black;
+}
+
+.social-buttons button {
+    font-size: 18px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #1a2537;
+    background-color: transparent;
+    border: 2px solid rebeccapurple; /* Añadir borde transparente */
+}
+
+.social-buttons button i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+/* estilos.css */
+/* Estilos del botón de iniciar sesión */
+.contenedor {
+    text-align: center;
+}
+
+.iniciar-sesion {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.iniciar-sesion:hover {
+    background-color: #555;
+    text-align: center;
+}
+
+.iniciar-sesion a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.iniciar-sesion:hover a {
+    color: #fff;
+}
+
